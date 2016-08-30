@@ -5,7 +5,7 @@ var fs = require('fs');
 // Instantiate new ES object
 var client = new elasticsearch.Client({
 	// your ES server configuration
-    host: 'localhost:9200'
+    host: 'localhost:9200' // todo: make this line a config
 });
 
 // some attributes
