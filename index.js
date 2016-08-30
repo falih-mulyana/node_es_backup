@@ -1,6 +1,7 @@
 // Dependencies
 var elasticsearch = require('elasticsearch');
 var fs = require('fs');
+// Dependencies --end
 
 // Instantiate new ES object
 var client = new elasticsearch.Client({
